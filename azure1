@@ -68,38 +68,38 @@ local CamTracerLine = Drawing.new("Line")
 CamTracerLine.Thickness = 2
 
 local TargStats = Instance.new("ScreenGui", CoreGui)
-TargStats.Name = "Actyrn"
+TargStats.Name = "cyberatlass."
 TargStats.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 local StatsFrame = Instance.new("Frame", TargStats)
-StatsFrame.Name = "Actyrn"
-StatsFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+StatsFrame.Name = "cyberatlass."
+StatsFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
 StatsFrame.BorderSizePixel = 0
 StatsFrame.Position = UDim2.new(0.388957828, 0, 0.700122297, 0)
 StatsFrame.Size = UDim2.new(0, 360, 0, 70)
 
 local StatsTop = Instance.new("Frame", StatsFrame)
-StatsTop.Name = "Actyrn"
-StatsTop.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+StatsTop.Name = "cyberatlass."
+StatsTop.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
 StatsTop.BorderSizePixel = 0
 StatsTop.Position = UDim2.new(0, 0, -0.101449274, 0)
 StatsTop.Size = UDim2.new(0, 360, 0, 7.5)
 
 local StatsName = Instance.new("TextLabel", StatsFrame)
-StatsName.Name = "Actyrn"
+StatsName.Name = "cyberatlass."
 StatsName.BackgroundTransparency = 1
 StatsName.Position = UDim2.new(0.220670387, 0, 0.0704225376, 0)
 StatsName.Size = UDim2.new(0, 270, 0, 20)
 StatsName.Font = Enum.Font.Code
-StatsName.TextColor3 = Color3.fromRGB(255, 255, 255)
+StatsName.TextColor3 = Color3.fromRGB(0, 0, 255)
 StatsName.TextScaled = true
 StatsName.TextSize = 15
 StatsName.TextStrokeTransparency = 0
 StatsName.TextWrapped = true
 
 local StatsPicture = Instance.new("ImageLabel", StatsFrame)
-StatsPicture.Name = "Actyrn"
-StatsPicture.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+StatsPicture.Name = "cyberatlass."
+StatsPicture.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
 StatsPicture.BorderSizePixel = 0
 StatsPicture.Position = UDim2.new(0.0279329624, 0, 0.0704225376, 0)
 StatsPicture.Size = UDim2.new(0, 60, 0, 60)
@@ -107,16 +107,16 @@ StatsPicture.Transparency = 1
 StatsPicture.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
 
 local StatsHealthBackground = Instance.new("Frame", StatsFrame)
-StatsHealthBackground.Name = "Actyrn"
-StatsHealthBackground.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+StatsHealthBackground.Name = "cyberatlass."
+StatsHealthBackground.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
 StatsHealthBackground.BorderSizePixel = 0
 StatsHealthBackground.Position = UDim2.new(0.215083793, 0, 0.348234326, 0)
 StatsHealthBackground.Size = UDim2.new(0, 270, 0, 20)
 StatsHealthBackground.Transparency = 1
 
 local StatsHealthBar = Instance.new("Frame", StatsHealthBackground)
-StatsHealthBar.Name = "Actyrn"
-StatsHealthBar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+StatsHealthBar.Name = "cyberatlass."
+StatsHealthBar.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
 StatsHealthBar.BorderSizePixel = 0
 StatsHealthBar.Position = UDim2.new(-0.00336122862, 0, 0.164894029, 0)
 StatsHealthBar.Size = UDim2.new(0, 130, 0, 20)
@@ -339,12 +339,12 @@ end
 
 -- Window
 
-local Actyrn = UiLib:CreateWindow("Azure Modded | Actyrn | .gg/azuremodded", Vector2.new(500, 600), Enum.KeyCode.RightShift)
+local cyberatlass. = UiLib:CreateWindow("AtlasSense | cyberatlass. | .gg/azuremodded", Vector2.new(500, 600), Enum.KeyCode.RightShift)
 
 -- Tabs
 
-local MainTab = Actyrn:CreateTab("Main")
-local MiscTab = Actyrn:CreateTab("Misc")
+local MainTab = cyberatlass.:CreateTab("Main")
+local MiscTab = cyberatlass.:CreateTab("Misc")
 
 -- Sectors
 
@@ -1235,7 +1235,7 @@ UserInputService.InputBegan:Connect(function(Key)
 
 			if TargetAimbot.Notify then
 				StarterGui:SetCore("SendNotification", {
-					Title = "Azure Modded [Actyrn]", 
+					Title = "AtlasSense [cyberatlass.]", 
 					Text = "Untargeting: " .. TargetPlr.DisplayName, 
 					Duration = 2.5
 				})
@@ -1247,7 +1247,7 @@ UserInputService.InputBegan:Connect(function(Key)
 
 				if TargetAimbot.Notify then
 					StarterGui:SetCore("SendNotification", {
-						Title = "Azure Modded [Actyrn]", 
+						Title = "AtlasSense [cyberatlass.]", 
 						Text = "Targeting: " .. TargetPlr.DisplayName, 
 						Duration = 2.5
 					})
@@ -1266,7 +1266,7 @@ UserInputService.InputBegan:Connect(function(Key)
 
 			if CameraAimbot.Notify then
 				StarterGui:SetCore("SendNotification", {
-					Title = "Azure Modded [Actyrn]", 
+					Title = "AtlasSense [cyberatlass.]", 
 					Text = "Untargeting: " .. CamlockPlr.DisplayName, 
 					Duration = 2.5
 				})
@@ -1278,7 +1278,7 @@ UserInputService.InputBegan:Connect(function(Key)
 
 				if CameraAimbot.Notify then
 					StarterGui:SetCore("SendNotification", {
-						Title = "Azure Modded [Actyrn]", 
+						Title = "AtlasSense [cyberatlass.]", 
 						Text = "Targeting: " .. CamlockPlr.DisplayName, 
 						Duration = 2.5
 					})
